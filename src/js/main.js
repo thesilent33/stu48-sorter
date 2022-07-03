@@ -601,7 +601,7 @@ function result(imageNum = 7) {
 	const charName = reduceTextWidth(char.name, 'Arial 12px', 500);
 	const charTooltip = char.name !== charName ? char.name : '';
 	
-	if((num-1) % 3 === 0)
+	if((num-1) % 3 === 0) 
 	{
 		otpt = `<div class="result col-4 px-0 pb-1 d-flex"><div class="flex-fill row mx-0 result-mcontainer p-1 border rounded-lg"><div class="d-flex right col-12 col-xl-10 pl-0 pr-0 justify-content-center"><div class="row mx-0"><div class="pl-1 pr-0 d-flex col-12 align-items-center text-break text-center" title="${charTooltip}">${num}. ${charName}</div></div></div></div></div>`;
 	}
