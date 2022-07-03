@@ -1,0 +1,657 @@
+html
+{
+	font-size: 1rem;
+}
+
+/* START of custom checkmark*/
+/* The checkbox-container */
+.checkbox-container {
+  color: #19247c;
+  display: block;
+  position: relative;
+  justify-content: center;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 110%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #19247c;
+}
+
+/* Grey out checkbox when disabled */
+.checkbox-container input:disabled ~ .checkmark {
+  background-color: #aaabb4;
+  cursor: not-allowed;
+}
+
+/* Grey out caption/container when disabled */
+/* NOT WORKING?? */
+.checkbox-container--disabled {
+  color: rgb(255, 0, 0);
+  cursor:not-allowed;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: relative;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* END of custom checkmark*/
+
+.progresstext {
+  position: absolute;
+  width: 100%;
+  /*margin: 3px 0px;*/
+  text-align: center;
+  font-size: 0.7em;
+}
+
+
+body {
+  /* background-color: #c7e8fa; */
+  font-family: "Bahnschrift", Helvetica, sans-serif;
+  /* position: relative; */
+  /* min-height: 100%; */
+  /* min-height: 100vh; */
+  /* padding-bottom: 55%; */
+  /* font-size: 14px;*/
+  /* new lines */
+  /* Thx to https://levelup.gitconnected.com/how-to-keep-your-footer-at-the-bottom-of-the-page-the-easy-way-20aa3bcd621f */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Thx to https://levelup.gitconnected.com/how-to-keep-your-footer-at-the-bottom-of-the-page-the-easy-way-20aa3bcd621f */
+.main {
+  flex-grow: 1;
+ }
+
+footer_bak {
+  /* position:relative; */
+  /* position: -webkit-sticky; */
+  position:sticky;
+  bottom: 0;
+  text-align: center;
+  padding: 0px;
+  /* padding-top: 1rem; */
+  /* padding-bottom: 50px; */
+  /* left: 0;
+  right: 0; */
+  /* bottom: -10rem; */
+  font-size: 0.7rem;
+  background-color: #ea6c81;
+  color: white;
+}
+
+footer {
+  background-color: #81c4f8;
+  color: white;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+ }
+
+/*.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 1em;
+}*/
+
+.progress-container {
+  margin: 1em auto;
+  
+  /*width: 500px;*/
+}
+
+.progressbar {
+  position: relative;
+  /*width: 492px;*/
+  border: 1.7px solid #c7e8fa;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 2px 0px;
+}
+
+
+.progressfill {
+  border-radius: 5px;
+  height: 20px;
+  background-color: #19247c;
+  width: 0%;
+}
+
+/*
+.sorter {
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 120px 1fr 120px;
+  grid-gap: 5px;
+  width: 420px;
+}
+*/
+
+.button {
+  
+  /*border: 1px solid black;
+  text-align: center;
+  padding: 10%;
+  grid-column: 2 / 3;*/
+  
+  cursor: pointer;
+  
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.starting.start.button {
+  text-align: center;
+  /*grid-row: span 6;*/
+}
+
+.starting.load.button {
+  /*grid-row: span 3;*/
+  /*display: none;*/
+}
+
+.sorting.button, .finished.button {
+  /*grid-row: span 2;*/
+  /*display: none;*/
+}
+
+.loading.button {
+  /*grid-row: span 6;*/
+  /*display: none;*/
+}
+
+.loading.button > .col-12 > .row.animated-circle {
+  width: 25px;
+  height: 25px;
+  /*margin: 40px auto;*/
+  background-color: #333;
+
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+/* Animation taken from: http://tobiasahlin.com/spinkit/ */
+
+.loading.button > .col-12 > .row {
+  /*margin: auto auto 20%;*/
+  font-size: 0.7em;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+.sorter > .col-4
+{
+	/*text-align: center;*/
+}
+
+.sorter > .col-4 > .image {
+  
+  
+  max-height: 100%;
+  max-width: 100%;
+  /*width: 207px;
+  height: 250px;
+  */
+  margin: auto;
+  /*grid-row: 1 / 7;*/
+  cursor: pointer;
+}
+
+.sorter > .col-4 > .text {
+  
+  /*
+  min-width: 112px;
+  max-width: 292px;
+  float: right;
+  */
+  /*
+  height: 60px;
+  */
+  /*display: none;*/
+}
+
+.sorter > .col-4 > .loading-btn, .second, .third
+{
+	/*display: none;*/
+}
+
+#three-one, #three-two, #three-three-one{
+
+}
+
+/*
+.sorter > .text > p {
+  margin: 0.5em 5px 0px;
+  width: calc(100%-10px);
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+.sorter > .left {
+
+  border-radius: 10px;
+  cursor: pointer;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  /*
+  grid-column: 1 / 2;
+  border: 1px solid #000000;
+  
+  position: relative;
+  top: 0px;
+  left: -90px;
+  asterisk here/
+}
+
+.sorter > .right {
+  grid-column: 3 / 4;
+  border: 1px solid #000000;
+}
+*/
+
+.options {
+  /*margin: 1em auto;*/
+  /*display: grid;*/
+  /* position: relative; */
+  text-align: left;
+  font-size: 0.7rem;
+  
+  /* padding-bottom: 60vmin; */
+  /* padding-bottom: 1rem; */
+  
+  
+  /*grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 450px;
+  
+  
+  font-size: 20px;
+  
+  */
+}
+
+/*
+.options > div {
+  font-size: 0.5625em;
+}
+*/
+
+/*
+label {
+  cursor: pointer;
+}*/
+
+
+label:hover {
+  color: #2a8fdd;
+}
+
+/*
+.checkbox-container input:disabled ~ .label {
+  cursor: not-allowed;
+  color: #8a8a8a;
+}
+*/
+
+/*
+.checkbox-container input:disabled ~ .label {
+  cursor: not-allowed;
+  color: #8a8da0;
+}
+
+.checkbox-container input:disabled ~ .label:hover {
+  cursor: not-allowed;
+  color: #8a8da0;
+}
+*/
+
+.options > .large.option, .options > hr {
+  /*grid-column: span 3;*/
+  /*text-align: center;*/
+  /*width: 100%;*/
+}
+
+.image.selector {
+  margin-top: 0.5em;
+  /*width: 500px;*/
+  display: none;
+  text-align: center;
+  /*font-size: 0.75em;*/
+}
+
+.time.taken {
+  margin-top: 0.5em;
+  /*width: 500px;*/
+  display: none;
+  text-align: center;
+  /*font-size: 0.75em;*/
+}
+
+.results {
+  /*font-size: 0.75em;*/
+  display: flex;
+  align-content: flex-start;
+  /*width: 80%;
+  margin: 2em auto;*/
+  margin: 10px;
+}
+
+/*
+@media all and (min-width: 600px) {
+  .results {
+    flex-flow: column wrap;
+    max-height: calc(5 * (175px + 2px) + 1 * (15px + 2px));
+  /* 2px for borders ast-here/
+  }
+}
+
+@media all and (max-width: 600px) {
+  .results {
+    flex-flow: column nowrap;
+  }
+*/
+
+.result-mcontainer
+{
+	border-radius: 5px;
+	background-color: #eee;
+	max-width: 100%;
+}
+
+.result-mcontainer-left
+{
+	border-radius: 5px 0px 5px 0px;
+	background-color: #0a0;
+	max-width: 100%;
+}
+
+.result-mcontainer > .row > img{
+	max-width: 180px;
+}
+
+.result-mcontainer > .row > .col-8 > .row > img{
+	max-width: 180px;
+}
+
+.result-mcontainer > .col-9 > .row > img{
+	max-width: 290px;
+}
+
+/*
+.result {
+  height: 15px;
+  margin-bottom: -1px;
+  display: grid;
+  width: 211px;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid #000;
+  margin-right: 5px;
+}
+
+.result.image {
+  height: 175px;
+}
+
+.result.image img {
+  height: 160px;
+}
+
+.result.spacer {
+  height: 1px;
+  background-color: #000;
+}
+
+.result.head {
+  background-color: #000;
+  color: #FFF;
+}
+
+.result > .left {
+  width: 35px;
+  padding: 1px 3px 1px 0.5em;
+  grid-column: 1 / 2;
+  text-align: right;
+}
+
+.result.image .left {
+  position: relative;
+}
+
+.result.image > .left span {
+  position: absolute;
+  top: 50%;
+  right: 3px;
+  margin-top: -0.375em;
+}
+
+.result > .right {
+  width: 160px;
+  padding: 1px 0em 1px 0em;
+  grid-column: 2 / 3;
+  border-left: 1px solid #000;
+  text-align: center;
+}
+*/
+
+.info {
+  /*margin: 2em auto 3em;*/
+  /*display: block;*/
+  /*text-align: center;*/
+  font-size: 0.6em;
+  /*width: 80%;
+  line-height: 1.2em;*/
+  background-color: #ea6c81;
+  color: #fff;
+  /* position: absolute; */
+  left: 0;
+  bottom: 0;
+}
+
+a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #efd343;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.sorter-container
+{
+	/*padding: 10px;*/
+	border-radius: 5px;
+  /*right, bottom ,shadow intensity, sharpness*/
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+	background-color: #fff;
+}
+
+.sorter-container.col-4
+{
+	max-width: 290px;
+}
+
+.d-flex.right.col-9.pl-1.pr-0
+{
+	align-items: flex-start;
+}
+
+@media(min-width: 320px)
+{
+	html
+	{
+		font-size: 0.8rem;
+	}
+	.d-flex.left.col-3.justify-content-end.px-0
+	{
+		font-size: 0.8rem;
+	}
+	.container
+	{
+		max-width: 100%;
+    /* padding-bottom: 10rem; */
+    /* padding-bottom: 3rem; */
+	}
+}
+
+
+@media(min-width: 468px) 
+{
+	html
+	{
+		font-size: 1.1rem;
+	}
+}
+
+@media(min-width: 576px) 
+{
+	html
+	{
+		font-size: 1.2rem;
+	}
+}
+
+@media(min-width: 672px) 
+{
+	html
+	{
+		font-size: 1.3rem;
+	}
+	.progresstext
+	{
+		font-size: 0.6rem;
+	}
+}
+
+@media(min-width: 768px) 
+{
+	html 
+	{
+		font-size: 1.4rem;
+	}
+	.result-mcontainer
+	{
+		font-size: 0.8rem;
+	}
+	.result-mcontainer > .left
+	{
+		font-size: 0.9rem;
+	}
+}
+
+@media(min-width: 880px) 
+{
+	html 
+	{
+		font-size: 1.5rem;
+	}
+	.progresstext
+	{
+		font-size: 0.5rem;
+	}
+	.result-mcontainer
+	{
+		font-size: 1rem;
+	}
+}
+
+@media(min-width: 992px) 
+{
+	html 
+	{
+		font-size: 1.6rem;
+	}
+	.progressbattle
+	{
+		font-size: 0.9rem;
+	}
+	.result-mcontainer
+	{
+		
+	}
+}
