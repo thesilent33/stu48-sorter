@@ -103,7 +103,7 @@ dataSet[dataSetVersion].characterData = [
 
   {
     name: "Ishida Chiho",
-    img: "ishida-chiho.jpg",
+    img: "ishida_chiho.jpg",
     opts: {
       generation: [ "1st-gen" ],
       sub_unit: ["charming_trip","setouchi_pr_1","setouchi_pr_2","cgb41","miker"], activity_status: ["active"]
@@ -151,7 +151,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Taniguchi Mahina",
-    img: "taniguchi-mahina.jpg",
+    img: "taniguchi_mahina.jpg",
     opts: {
       generation: [ "1st-gen" ],
       sub_unit: ["katte_ni_shikoku_kanko_taishi"], activity_status: ["active"]
@@ -159,7 +159,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hyodo Aoi",
-    img: "hyodo-aoi.jpg",
+    img: "hyodo_aoi.jpg",
     opts: {
       generation: [ "1st-gen" ],
       sub_unit: ["katte_ni_shikoku_kanko_taishi","STUDIO","aoi_himawari"], activity_status: ["active"]
@@ -167,7 +167,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fukuda Akari",
-    img: "fukuda-akari.jpg",
+    img: "fukuda_akari.jpg",
     opts: {
       generation: [ "1st-gen" ],
       sub_unit: ["katte_ni_shikoku_kanko_taishi","setouchi_pr_1","setouchi_pr_2","aoi_himawari"], activity_status: ["active"]
@@ -209,7 +209,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shinano Soraha",
-    img: "shinano-soraha.jpg",
+    img: "shinano_soraha.jpg",
     opts: {
       generation: [ "3rd-draft" ],
       sub_unit: ["miker","seto7","setomaiku"], activity_status: ["active"]
@@ -217,7 +217,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nakamura Mai",
-    img: "nakamura-mai.jpg",
+    img: "nakamura_mai.jpg",
     opts: {
       generation: [ "3rd-draft" ],
       sub_unit: ["katte_ni_shikoku_kanko_taishi","setomaiku","setouchi_pr_2"], activity_status: ["active"]
@@ -227,7 +227,7 @@ dataSet[dataSetVersion].characterData = [
   // 2nd-gen
   {
     name: "Ikeda Yura",
-    img: "ikeda-yura.jpg",
+    img: "ikeda_yura.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["mini_STUDIO","nona_diamonds","STUDIO"], activity_status: ["active"]
@@ -235,7 +235,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Rine Utsumi",
-    img: "utsumi-rine.jpg",
+    img: "utsumi_rine.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["charming_trip","miker"], activity_status: ["active"]
@@ -243,7 +243,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Osaki Serika",
-    img: "osaki-serika.jpg",
+    img: "osaki_serika.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["pin_miker","setouchi_pr_2","miker"], activity_status: ["active"]
@@ -259,7 +259,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kawamata Yuuna",
-    img: "kawamata-yuuna.jpg",
+    img: "kawamata_yuuna.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["pin_miker","miker"], activity_status: ["active"]
@@ -267,7 +267,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kudou Riko",
-    img: "kudou-riko.jpg",
+    img: "kudou_riko.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["pin_miker","miker"], activity_status: ["active"]
@@ -275,7 +275,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kojima Aiko",
-    img: "kojima-aiko.jpg",
+    img: "kojima_aiko.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["mini_STUDIO"], activity_status: ["former_member"]
@@ -283,7 +283,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sako Himeka",
-    img: "sako-himeka.jpg",
+    img: "sako_himeka.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["mini_STUDIO","STUDIO"], activity_status: ["active"]
@@ -291,7 +291,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shimizu Sara",
-    img: "shimizu-sara.jpg",
+    img: "shimizu_sara.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["mini_STUDIO","STUDIO"], activity_status: ["active"]
@@ -307,7 +307,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Takao Sayaka",
-    img: "takao-sayaka.jpg",
+    img: "takao_sayaka.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["charming_trip","setouchi_pr_2","miker"], activity_status: ["active"]
@@ -331,7 +331,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Harada Sayaka",
-    img: "harada-sayaka.jpg",
+    img: "harada_sayaka.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["charming_trip","miker"], activity_status: ["active"]
@@ -339,7 +339,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Muneyuki Rika",
-    img: "muneyuki-rika.jpg",
+    img: "muneyuki_rika.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["katte_ni_shikoku_kanko_taishi"], activity_status: ["active"]
@@ -355,7 +355,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yoshida Sara",
-    img: "yoshida-sara.jpg",
+    img: "yoshida_sara.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["charming_trip","miker"], activity_status: ["active"]
@@ -371,7 +371,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Watanabe Natsuki",
-    img: "watanabe-natsuki.jpg",
+    img: "watanabe_natsuki.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["charming_trip","miker"], activity_status: ["active"]
@@ -382,7 +382,7 @@ dataSet[dataSetVersion].characterData = [
   // 2.5 gen / new-wave-project
   {
     name: "Okada Azumi",
-    img: "okada-azumi.jpg",
+    img: "okada_azumi.jpg",
     opts: {
       generation: [ "new-wave-project" ],
       sub_unit: ["katte_ni_shikoku_kanko_taishi"], activity_status: ["active"]
@@ -390,7 +390,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Okamura Rio",
-    img: "okamura-rio.jpg",
+    img: "okamura_rio.jpg",
     opts: {
       generation: [ "new-wave-project" ],
       sub_unit: ["STUDIO"], activity_status: ["active"]
@@ -398,7 +398,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kurushima Yuka",
-    img: "kurushima-yuka.jpg",
+    img: "kurushima_yuka.jpg",
     opts: {
       generation: [ "new-wave-project" ],
       sub_unit: ["miker"], activity_status: ["active"]
@@ -406,7 +406,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Morokuzu Noa",
-    img: "morokuzu-noa.jpg",
+    img: "morokuzu_noa.jpg",
     opts: {
       generation: [ "new-wave-project" ],
       sub_unit: ["miker"], activity_status: ["active"]
@@ -417,7 +417,7 @@ dataSet[dataSetVersion].characterData = [
   // 3rd gen
   {
     name: "Arai Ria",
-    img: "arai-ria.jpg",
+    img: "arai_ria.jpg",
     opts: {
       generation: [ "3rd-gen" ],
       sub_unit: ["miker"], activity_status: ["active"]
@@ -425,7 +425,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ishihara Yuuna",
-    img: "ishihara-yuuna.jpg",
+    img: "ishihara_yuuna.jpg",
     opts: {
       generation: [ "3rd-gen" ],
       sub_unit: ["katte_ni_shikoku_kanko_taishi"], activity_status: ["active"]
@@ -433,7 +433,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sogawa Saki",
-    img: "sogawa-saki.jpg",
+    img: "sogawa_saki.jpg",
     opts: {
       generation: [ "3rd-gen" ],
       sub_unit: ["miker"], activity_status: ["active"]
@@ -441,7 +441,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Morisue Himena",
-    img: "morisue-himena.jpg",
+    img: "morisue_himena.jpg",
     opts: {
       generation: [ "3rd-gen" ],
       sub_unit: ["STUDIO"], activity_status: ["active"]
@@ -451,26 +451,83 @@ dataSet[dataSetVersion].characterData = [
   // 3rd gen kenyuusei
   {
     name: "Okuda Yuina",
-    img: "okuda-yuina.jpg",
+    img: "okuda_yuina.jpg",
     opts: {
-      generation: [ "3rd-gen" ],
+      generation: [ "3rd-gen-kenkyuu" ],
       sub_unit: ["miker"], activity_status: ["active"]
     }
   },
   {
     name: "Kitazawa Ichigo",
-    img: "kitazawa-ichigo.jpg",
+    img: "kitazawa_ichigo.jpg",
     opts: {
-      generation: [ "3rd-gen" ],
+      generation: [ "3rd-gen-kenkyuu" ],
       sub_unit: ["katte_ni_shikoku_kanko_taishi"], activity_status: ["active"]
     }
   },
   {
     name: "Hamada Hibiki",
-    img: "hamada-hibiki.jpg",
+    img: "hamada_hibiki.jpg",
+    opts: {
+      generation: [ "3rd-gen-kenkyuu" ],
+      sub_unit: ["miker"], activity_status: ["active"]
+    }
+  },
+  
+  {
+    name: "Ide Kanau",
+    img: "Ide_Kanau_STU48_2024.jpg",
     opts: {
       generation: [ "3rd-gen" ],
-      sub_unit: ["miker"], activity_status: ["active"]
+      sub_unit: [""], activity_status: ["former_member"]
+    }
+  },
+  {
+    name: "Kabeshima Yuika",
+    img: "Kabeshima_Yuika_STU48_2024.jpg",
+    opts: {
+      generation: [ "3rd-gen-kenkyuu" ],
+      sub_unit: ["katte_ni_shikoku_kanko_taishi"], activity_status: ["former_member"]
+    }
+  },
+  {
+    name: "Shimizu Risako",
+    img: "Shimizu_Risako_STU48_2023.jpg",
+    opts: {
+      generation: [ "3rd-gen-kenkyuu" ],
+      sub_unit: [""], activity_status: ["former_member"]
+    }
+  },
+  {
+    name: "Iwasaki Kasumi",
+    img: "Iwasaki_Kasumi_STU48_2024.jpg",
+    opts: {
+      generation: [ "3rd-gen-kenkyuu" ],
+      sub_unit: [""], activity_status: ["former_member"]
+    }
+  },
+  {
+    name: "Hasegawa Noa",
+    img: "Hasegawa_Noa_STU48_2024.jpg",
+    opts: {
+      generation: [ "3rd-gen-kenkyuu" ],
+      sub_unit: [""], activity_status: ["former_member"]
+    }
+  },
+  {
+    name: "Fujii Rie",
+    img: "Fujii_Rie_STU48_2024.jpg",
+    opts: {
+      generation: [ "3rd-gen-kenkyuu" ],
+      sub_unit: [""], activity_status: ["former_member"]
+    }
+  },
+  {
+    name: "Kajiwara Miu",
+    img: "Kajiwara_Miu_STU48_2024.jpg",
+    opts: {
+      generation: [ "3rd-gen-kenkyuu" ],
+      sub_unit: [""], activity_status: ["former_member"]
     }
   },
   
