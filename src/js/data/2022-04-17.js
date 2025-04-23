@@ -276,7 +276,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kojima Aiko",
-    img: "kojima_aiko.jpg",
+    img: "kojima-aiko.jpg",
     opts: {
       generation: [ "2nd-gen" ],
       sub_unit: ["mini_STUDIO"], activity_status: ["former_member"]
