@@ -13,7 +13,8 @@ dataSet[dataSetVersion].options = [
 		{ name: "3rd Draft", tooltip: "3rd Draft members", key: "3rd-draft" },
 		{ name: "2nd Generation", tooltip: "2nd Generation members", key: "2nd-gen" },
 		{ name: "2.5th Generation", tooltip: "2.5th Generation / New Wave Project members", key: "new-wave-project" },
-		{ name: "3rd Generation", tooltip: "3rd Generation members", key: "3rd-gen" }
+		{ name: "3rd Generation", tooltip: "3rd Generation members", key: "3rd-gen" },
+		{ name: "3rd Generation Kenyuusei", tooltip: "3rd Generation Kenyuusei members", key: "3rd-gen-kenyuu" }
     ]
   },
   {
