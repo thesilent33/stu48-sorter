@@ -22,4 +22,4 @@ let dataSetVersion = '2022-04-17';
  * Image Source: imgbb.com
  */
 // web: https://imgbb.com/
-const imageRoot = 'https://i.ibb.co/';
+const imageRoot = './src/assets/member/';
