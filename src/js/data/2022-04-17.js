@@ -235,7 +235,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Rine Utsumi",
+    name: "Utsumi Rine",
     img: "utsumi_rine.jpg",
     opts: {
       generation: [ "2nd-gen" ],
@@ -547,7 +547,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Rino Sashihara",
+    name: "Sashihara Rino",
     img: "2017-STU48-Sashihara-Rino.jpg",
     opts: {
       generation: [ "1st-gen" ],
@@ -555,7 +555,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Mami Ozaki",
+    name: "Ozaki Mami",
     img: "2017-STU48-Ozaki-Mami.jpg",
     opts: {
       generation: [ "1st-gen" ],
@@ -563,7 +563,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Orie Cho",
+    name: "Cho Orie",
     img: "2018-STU48-Cho-Orie.jpg",
     opts: {
       generation: [ "1st-gen" ],
@@ -571,7 +571,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Aiko Mizoguchi",
+    name: "Mizoguchi Aiko",
     img: "2018-STU48-Mizoguchi-Aiko.jpg",
     opts: {
       generation: [ "1st-gen" ],
@@ -579,7 +579,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Akari Yura",
+    name: "Yura Akari",
     img: "2019-STU48-Yura-Akari.jpg",
     opts: {
       generation: [ "1st-gen" ],
@@ -587,7 +587,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Ayumi Ichioka",
+    name: "Ichioka Ayumi",
     img: "2019-STU48-Ichioka-Ayumi.jpg",
     opts: {
       generation: [ "1st-gen" ],
@@ -595,7 +595,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Himea Maemura",
+    name: "Maemura Himea",
     img: "2019-Audition-STU48-Maemura-Himea.jpg",
     opts: {
       generation: [ "2nd-gen" ],
